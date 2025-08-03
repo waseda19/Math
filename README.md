@@ -10,7 +10,7 @@ Reusable TypeScript modules for a math quiz application.
 ## Data
 
 - Questions reside in `src/data/questions.ts`
-- The sample set includes geometry and trick problems
+- The sample set includes algebra, geometry, and trick problems
 
 ## Demo
 
