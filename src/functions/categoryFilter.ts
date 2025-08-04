@@ -6,8 +6,8 @@ export function categoryFilter(
   difficulty?: number
 ): Question[] {
   return qs.filter((q) => {
-    const catOk = category ? q.category === category : true;
-    const diffOk = difficulty ? q.difficulty === difficulty : true;
+    const catOk = category !== undefined ? q.category === category : true;
+    const diffOk = difficulty !== undefined ? q.difficulty === difficulty : true;
     return catOk && diffOk;
   });
 }
